@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #d1{
+            border: 2px solid black;
+            margin-left: 150px;
+          width: 35%;
+          padding: 20px;
+          border-radius: 5px;
+         font-size: 20px;
+         margin-top: 75px;
+         float: left;
+        }
+        input{
+            margin-right: 20px;
+            float: right;
+            background-color:lightblue;
+            
+
+        }
+        body{
+            background-image: url(img/projectschedulemanagement.jpg);
+        }
+        #button
+        {
+            float: right;
+            margin-left: 150px; 
+            border: 2px solid;
+             width: 50px;
+          border-radius: 5px;
+        
+        }
+        button:hover
+        {
+            cursor: pointer;
+        }
+    
+</style>
+</head>
+<body>
+    <div>
+    <div id="d1">
+     <label for="ename"><b>Event_name</b></label>
+     <input type="text" id="ename" name="ename"><br><br>
+
+     <label for="desc">Description</label>
+   <input type="text" id="desc" name="desc"><br><br>
+
+   <label for="St-time">Start-Time</label>
+   <input type="time" id="St-time" name="St-time"><br><br>
+
+   <label for="end-time">End-Time</label>
+   <input type="time" id="end-time" name="end-time"><br><br>
+
+   <label for="Dow" style="font-size: 20px;"><b>Day Of The Week</b></label>  <select name="multiple" id="myMulti">
+    <option value="Monday">Monday</option>
+    <option value="Tuesday">Tuesday</option>
+    <option value="Wednesday">Wednesday</option>
+    <option value="Thursday">Thursday</option>
+    <option value="Friday">Friday</option>
+    <option value="Saturday">Saturday</option>
+    <option value="Sunday">Sunday</option>
+</select><br><br>
+          <button type="button" value="Save" id="button" >Save</button>
+  </div>
+  <div>
+     <a href="login"> <input type="button" value="logout" style="float: right;"></a>
+</div>
+</div>
+</body>
+</html>
